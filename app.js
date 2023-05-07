@@ -79,5 +79,9 @@ gsap.to('.intro img', { scrollTrigger: { trigger: '.intro-ct', scrub: 2, start: 
 
 const tl = gsap.timeline();
 tl.to(".head span", { y: "0", duration: .8, stagger: 0.33 });
-tl.fromTo('#home p', .5, { opacity: 0, y: 20 }, { opacity: 1, y: 0 })
-tl.fromTo('.cta', .5, { opacity: 0, y: 20 }, { opacity: 1, y: 0 })
+tl.fromTo('#home p', .5, { opacity: 0, y: 20 }, { opacity: 1, y: 0 });
+tl.fromTo('.cta', .5, { opacity: 0, y: 20 }, { opacity: 1, y: 0 });
+
+
+
+gsap.fromTo('.move', .5, { opacity: 0, y: 40 }, { opacity: 1, y: 0, scrollTrigger: '.move', stagger: .25 });

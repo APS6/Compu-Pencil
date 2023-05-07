@@ -223,7 +223,9 @@ nav {
 .showcase img:hover {
     transform: scale(.97);
 }
-
+.showcase button {
+    display: none;
+}
 .features {
     display: flex;
     flex-direction: column;
@@ -443,9 +445,7 @@ i{
         width: 90%;
         text-align: center;
     }
-    .icons{
-        gap: 3rem;
-    }
+
     .brand{
         font-size: 1ch;
     }
@@ -453,7 +453,7 @@ i{
         gap: 3px;
     }
     .navlist li{
-        font-size: 1ch;
+        font-size: 1.2ch;
     }
     .head{
         font-size: 3.5ch;
@@ -463,9 +463,15 @@ i{
         width: 90%;
         font-size: 1.7ch;
     }
+    #home img{
+        display: none;
+    }
     .cta{
         width: 90%;
         font-size: 1.5ch;
+    }
+    .testimonials{
+        padding-bottom: 5rem;
     }
     .testimonial{
         width: 90%;
@@ -475,8 +481,34 @@ i{
     }
     .tr, .tc p{
         width: auto;
+        text-align: center;
     }
     .tc{
         flex-direction: column-reverse;
+    }
+
+    .f2{
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+
+    .icons{
+        gap: 3rem;
+    }
+}
+
+@media (pointer: coarse){
+    .showcase button {
+        display: block;
+        position: absolute;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.329);
+        border: 2px solid white;
+        border-radius: 30px;
+        font-size: 2ch;
+        padding: 10px 10px;
+    }
+    .showcase img{
+        position: relative;
     }
 }
