@@ -436,10 +436,12 @@ i{
     }
     .f h2{
         font-size: 5ch;
+        padding: 0;
     }
     .f span{
         opacity: 1;
         width: 90%;
+        text-align: center;
     }
     .icons{
         gap: 3rem;
