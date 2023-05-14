@@ -687,6 +687,7 @@ i{
     }
     .img-3{
         height: 45vh;
+        margin-top: 4rem;
     }
     .intro h2 {
         font-size: 5ch;
@@ -704,6 +705,11 @@ i{
 
 }
 
+@media (max-width: 400px){
+    .abouth{
+        font-size: 3ch;
+    }
+}
 @media (pointer: coarse){
     .showcase button {
         display: block;
