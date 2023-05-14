@@ -225,9 +225,11 @@ nav {
 .showcase img:hover {
     transform: scale(.97);
 }
+
 .showcase button {
     display: none;
 }
+
 .features {
     display: flex;
     flex-direction: column;
@@ -370,9 +372,11 @@ footer {
     flex-direction: column;
     gap: 10px;
 }
-.c a{
+
+.c a {
     font-size: 1.5ch;
 }
+
 .f2 {
     display: flex;
     width: 90%;
@@ -383,14 +387,16 @@ footer {
     flex-wrap: wrap;
 }
 
-.icons{
+.icons {
     display: flex;
     gap: 5rem;
 }
-i{
+
+i {
     padding: 10px;
 }
-.tail{
+
+.tail {
     width: 30px;
     aspect-ratio: 1/ 1;
     border-radius: 50%;
@@ -406,14 +412,16 @@ i{
 .tail.grow {
     transform: scale(3);
 }
+
 .tail.grow2 {
     transform: scale(5);
 }
+
 .tail.grow3 {
     transform: scale(1.6);
 }
 
-.tail span{
+.tail span {
     display: none;
     color: black;
     font-size: 4px;
@@ -424,27 +432,31 @@ i{
     display: grid;
     place-items: center;
 }
-.view.active{
+
+.view.active {
     display: inline-block;
 }
-.watch.active{
+
+.watch.active {
     display: inline-block;
 }
 
 
 /* About Page */
 
-.about{
+.about {
     margin: 6rem 0;
 }
-.abouth{
+
+.abouth {
     font-size: 9ch;
     font-family: var(--font-2);
     font-weight: 500;
     margin-left: 5%;
     width: 90%;
 }
-.ab-grid{
+
+.ab-grid {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -453,79 +465,95 @@ i{
     margin: 0 5%;
     justify-content: center;
 }
-.ab-1{
+
+.ab-1 {
     display: flex;
     width: 90%;
     align-items: center;
     gap: 2rem;
 }
-.img-1{
+
+.img-1 {
     width: 40%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
 }
-.ab-1 p{
+
+.ab-1 p {
     width: 60%;
     font-size: 2ch;
     line-height: 2ch;
 }
-.img-2{
+
+.img-2 {
     width: 30%;
     aspect-ratio: 1 /1;
     margin-right: -35%;
     margin-top: -4%;
 }
 
-.ab-2{
+.ab-2 {
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 40vh;
 }
+
 .ab-2 h3 {
     font-family: var(--font-2);
     width: 45%;
     font-size: 4ch;
     font-weight: 500;
 }
+
 .ab-2 p {
     width: 45%;
     font-size: 1.7ch;
     line-height: 23px;
 }
-.img-3{
+
+.img-3 {
     width: 98%;
     display: flex;
     justify-content: end;
     margin-top: 8rem;
     height: 120vh;
 }
-.img-3 img{
+
+.img-3 img {
     width: 80%;
     object-fit: cover;
 }
 
-.intro h2{
+.intro2 {
+    gap: 2rem;
+    margin: 5rem 0;
+}
+
+.intro h2 {
     width: 80%;
     font-size: 8ch;
     font-family: var(--font-2);
     font-weight: 500;
 }
-.alr{
+
+.alr {
     width: 80%;
 }
-.ct{
+
+.ct {
     font-size: 2ch;
     line-height: 2ch;
 }
 
 
-.future{
+.future {
     display: flex;
     flex-direction: column;
     gap: 10rem;
 }
-.future h2{
+
+.future h2 {
     width: 90%;
     font-size: 8ch;
     font-family: var(--font-2);
@@ -533,6 +561,7 @@ i{
     width: 90%;
     align-self: center;
 }
+
 .future p {
     align-self: flex-end;
     width: 55%;
@@ -541,7 +570,7 @@ i{
     line-height: 2ch;
 }
 
-.future img{
+.future img {
     height: 75%;
     width: 70%;
     object-fit: cover;
@@ -551,166 +580,205 @@ i{
 
 
 @media (max-width: 850px) {
-    .abouth{
+    .abouth {
         font-size: 6ch;
     }
-    .img-2{
+
+    .img-2 {
         display: none;
     }
+
     .ab-1 p {
         font-size: 1.6ch;
     }
-    .ab-grid{
+
+    .ab-grid {
         min-height: 80vh;
     }
 
-    .ab-2{
+    .ab-2 {
         flex-direction: column;
         gap: 2rem;
     }
-    .ab-2 h3{
+
+    .ab-2 h3 {
         width: auto;
     }
+
     .ab-2 p {
         width: 90%;
     }
-    .ct{
+
+    .ct {
         font-size: 1.5ch
     }
-    .alr{
+
+    .alr {
         width: 90%;
     }
+
     .intro h2 {
         font-size: 7ch;
     }
 
-    .future{
+    .future {
         gap: 5rem;
     }
+
     .future h2 {
         font-size: 5.6ch;
     }
+
     .future p {
         font-size: 2ch;
         width: 65%;
     }
 }
-@media (max-width: 550px){
-    .wrapper{
+
+@media (max-width: 550px) {
+    .wrapper {
         width: 90%;
         flex-direction: column-reverse;
     }
-    .f{
+
+    .f {
         height: 15rem;
         justify-content: center;
     }
-    .f h2{
+
+    .f h2 {
         font-size: 5ch;
         padding: 0;
     }
-    .f span{
+
+    .f span {
         opacity: 1;
         width: 90%;
         text-align: center;
     }
 
-    .brand{
+    .brand {
         font-size: 1ch;
     }
-    .navlist{
+
+    .navlist {
         gap: 3px;
     }
-    .navlist li{
+
+    .navlist li {
         font-size: 1.2ch;
     }
-    .head{
+
+    .head {
         font-size: 3.5ch;
         width: 90%;
     }
-    #home p{
+
+    #home p {
         width: 90%;
         font-size: 1.7ch;
     }
-    #home img{
+
+    #home img {
         display: none;
     }
-    .cta{
+
+    .cta {
         width: 90%;
         font-size: 1.5ch;
     }
-    .testimonials{
+
+    .testimonials {
         padding-bottom: 5rem;
     }
-    .testimonial{
+
+    .testimonial {
         width: 90%;
     }
-    .testimonials>span{
+
+    .testimonials>span {
         width: 90%;
     }
-    .tr, .tc p{
+
+    .tr,
+    .tc p {
         width: auto;
         text-align: center;
     }
-    .tc{
+
+    .tc {
         flex-direction: column-reverse;
     }
 
-    .f2{
+    .f2 {
         justify-content: center;
         gap: 2rem;
     }
 
-    .icons{
+    .icons {
         gap: 3rem;
     }
 
 
-    .abouth{
+    .abouth {
         font-size: 4ch;
     }
-    .ab-grid{
+
+    .ab-grid {
         padding-top: 3rem;
         padding-bottom: 5rem;
     }
-    .ab-1{
+
+    .ab-1 {
         flex-direction: column-reverse;
         gap: 3rem;
     }
+
     .ab-1 p {
         width: 100%;
     }
-    .img-1{
+
+    .img-1 {
         width: auto;
     }
+
     .ab-2 p {
         font-size: 1.5ch;
     }
-    .img-3{
+
+    .img-3 {
         height: 45vh;
         margin-top: 4rem;
     }
+
     .intro h2 {
         font-size: 5ch;
         width: 90%;
     }
 
-    .future h2{
+    .future h2 {
         font-size: 4.5ch;
     }
+
     .future p {
         width: 90%;
         margin-right: 5%;
         font-size: 1.5ch;
     }
 
-}
-
-@media (max-width: 400px){
-    .abouth{
-        font-size: 3ch;
+    .intro2 {
+        margin-top: 3rem;
+        margin-bottom: 0;
     }
 }
-@media (pointer: coarse){
+
+@media (max-width: 400px) {
+    .abouth {
+        font-size: 3.5ch;
+    }
+}
+
+@media (pointer: coarse) {
     .showcase button {
         display: block;
         position: absolute;
@@ -721,7 +789,8 @@ i{
         font-size: 2ch;
         padding: 10px 10px;
     }
-    .showcase img{
+
+    .showcase img {
         position: relative;
     }
 
