@@ -67,6 +67,8 @@ if (matchMedia('(any-pointer:coarse), (any-hover:none)').matches) {
         })
       });
 
+
+      gsap.to('.wrapper img', { scrollTrigger: { trigger: '.intro-ct', scrub: 2, start: 'top bottom' }, yPercent: -80 });
 }
 
 
@@ -75,7 +77,7 @@ if (matchMedia('(any-pointer:coarse), (any-hover:none)').matches) {
 
 
 
-gsap.to('.intro img', { scrollTrigger: { trigger: '.intro-ct', scrub: 2, start: 'top bottom' }, yPercent: -100 })
+
 
 const tl = gsap.timeline();
 tl.to(".head span", { y: "0", duration: .8, stagger: 0.33 });
