@@ -64,18 +64,17 @@ nav {
 
 .brand a {
     color: white;
-
+    padding: 5px;
 }
 
 .navlist li {
     list-style: none;
     font-size: 1.5ch;
-    padding: 5px;
 }
 
 .navlist li a {
     color: white;
-
+    padding: 5px;
 }
 
 .burger {
