@@ -196,7 +196,8 @@ nav {
 }
 
 .i2 {
-    font-size: 1.5ch;
+    font-size: 1rem;
+    line-height: 1.25rem;
 }
 
 .showcase {
@@ -270,7 +271,8 @@ nav {
 
 .f span {
     width: 50%;
-    font-size: 1.5ch;
+    font-size: 1rem;
+    line-height: 1.25rem;
     z-index: 2;
     opacity: 0;
 }
